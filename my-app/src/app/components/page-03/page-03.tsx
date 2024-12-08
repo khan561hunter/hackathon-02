@@ -30,7 +30,7 @@ import star from "@/app/assets/Frame 10.png"
 import name1 from "@/app/assets/Frame 31.png"
 import name2 from "@/app/assets/Frame 31 (1).png"
 import name3 from "@/app/assets/Frame 31 (2).png"
-import Four from "../footer/footer";
+
 
 export default function Three(){
     return(

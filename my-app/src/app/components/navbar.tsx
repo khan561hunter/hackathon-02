@@ -2,13 +2,13 @@
 import Image from "next/image"
 import cross from "@/app/assets/cross.png"
 import logo from "@/app/assets/logo.png"
-import navbar from "@/app/assets/navbar2.png"
+
 import search from "@/app/assets/search.png"
 import search2 from "@/app/assets/Search for products....png"
 import frame from "@/app/assets/Frame 5.png"
 import frame2 from "@/app/assets/Frame 5 (1).png"
 import frame3 from "@/app/assets/Frame (3).png"
-import Drop from "./dropdown";
+
 import Link from "next/link";
 import Men from "@/app/Product/page"
 

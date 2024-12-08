@@ -3,9 +3,9 @@ import star5 from "@/app/assets/Frame 10.png"
 import tsh1 from "@/app/assets/tsh (1).png"
 import tsh2 from "@/app/assets/tsh (2).png"
 import tsh3 from "@/app/assets/tsh (3).png"
-import tsh4 from "@/app/assets/tsh (5).png"
+
 import star4 from "@/app/assets/Frame 39 (1).png"
-import star3 from "@/app/assets/Frame 39.png"
+
 import two from "@/app/assets/$212.png"
 import twothree from "@/app/assets/$232.png"
 import discount from "@/app/assets/Frame 42.png"

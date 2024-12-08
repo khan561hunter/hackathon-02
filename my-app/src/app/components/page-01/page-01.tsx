@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image"
 import find from "@/app/assets/FIND CLOTHES THAT MATCHES YOUR STYLE.png"
-import pic from "@/app/assets/crop.jpeg"
+
 import rec from "@/app/assets/Rectangle 2 (1).png"
 import vector from "@/app/assets/Vector.png"
 import vector2 from "@/app/assets/Vector (1).png"
