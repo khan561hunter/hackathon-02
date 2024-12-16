@@ -4,14 +4,11 @@ import cross from "@/app/assets/cross.png"
 import logo from "@/app/assets/logo.png"
 
 import search from "@/app/assets/search.png"
-import search2 from "@/app/assets/Search for products....png"
-import frame from "@/app/assets/Frame 5.png"
-import frame2 from "@/app/assets/Frame 5 (1).png"
-import frame3 from "@/app/assets/Frame (3).png"
+
 import { FiShoppingCart } from "react-icons/fi";
 
 import Link from "next/link";
-import Men from "@/app/Product/page"
+
 import { useState } from "react";
 
 
@@ -37,7 +34,7 @@ export default function Navbar() {
       </div>
 
       {/* Navbar Section */}
-      <div className="flex justify-between items-center px-4 lg:px-20 py-4 relative bg-white">
+      <div className="flex justify-between items-center px-4 lg:px-20 py-6 relative bg-white">
         {/* Logo */}
         <Link href="/">
           <Image
@@ -50,7 +47,7 @@ export default function Navbar() {
         {/* Hamburger Menu for Mobile */}
         <button
           onClick={toggleMobileMenu}
-          className="lg:hidden text-2xl text-black"
+          className="lg:hidden text-2xl text-black px-6"
         >
           {mobileMenuOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
         </button>

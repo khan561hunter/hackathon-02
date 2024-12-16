@@ -42,7 +42,7 @@ export default function Two() {
         </div>
   
         {/* Mobile View */}
-        <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:bg-black sm:w-[390px] sm:h-auto sm:p-4 lg:hidden sm:block sm:absolute sm:top-[951px] sm:flex sm:justify-between sm:place-items-center" >
+        <div className=" lg:hidden " >
           <Image
             className="w-auto h-auto"
             src={grp1}
