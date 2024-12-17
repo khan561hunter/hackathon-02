@@ -42,9 +42,10 @@ export default function Two() {
         </div>
   
         {/* Mobile View */}
-        <div className=" lg:hidden " >
+        <div className=" lg:hidden w-[390px] h-[146px] bg-black  " >
+          <div className=" flex flex-col grid grid-cols-3 h-full px-[4px] p-8 mx-3 center w-screen gap-[20px]">
           <Image
-            className="w-auto h-auto"
+            className="w-auto h-auto "
             src={grp1}
             alt="brand1"
           />
@@ -59,15 +60,18 @@ export default function Two() {
             alt="brand3"
           />
           <Image
-            className="w-auto h-auto  "
+            className="w-auto h-auto mx-[45px] "
             src={grp4}
             alt="brand4"
           />
           <Image
-            className="w-auto h-auto   "
+            className="w-auto h-auto mx-[45px]  "
             src={grp5}
             alt="brand5"
           />
+
+          </div>
+          
         </div>
       </main>
     );

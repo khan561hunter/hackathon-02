@@ -34,148 +34,103 @@ import name3 from "@/app/assets/Frame 31 (2).png"
 
 export default function Three(){
     return(
-        <div className="w-[1440px] h-[2900px]  absolute top-[910px] s" >
+          <div className="w-[1440px] h-[2900px]  absolute top-[910px] " >
            <div>
-  {/* Heading */}
-  <div className="lg:w-[403px] lg:h-[58px] lg:absolute lg:top-[81px] lg:left-[518px] sm:absolute sm:left-[61px] sm:top-[170px] sm:w-[268px]">
-    <p className="sm:text-[32px] sm:font-extrabold sm:leading-[38.8px] lg:text-black lg:font-extrabold lg:text-[48px] lg:leading-[57.6px] lg:text-center">
-      NEW ARRIVALS
-    </p>
-  </div>
+              <div className="w-[403px] h-[58px] absolute top-[81px] left-[518px]">
+                <p className="text-black font-extrabold text-[48px] leading-[57.6px] text-center">
+                  NEW ARRIVALS
+                </p>
+              </div>
 
-  {/* lg: Default layout remains the same */}
-  <div className="hidden lg:block">
-    {/* Product 1 */}
-    <div>
-      <Image
-        className="w-[295px] h-[298px] absolute top-[194px] left-[100px]"
-        src={pic1}
-        alt="pic1"
-      />
-      <div className="w-[225px] h-[27px] absolute top-[508px] left-[100px]">
-        <p className="font-bold text-[20px] leading-[27px] text-nowrap">
-          T-shirt with Tape Details
-        </p>
-      </div>
-      <Image
-        className="w-[150px] h-[19px] absolute top-[543px] left-[100px]"
-        src={star1}
-        alt="star"
-      />
-      <div className="w-[55px] h-[32px] absolute top-[570px] left-[100px]">
-        <p className="font-bold text-[24px] leading-[32.4px]">$120</p>
-      </div>
-    </div>
-    {/* Product 2 */}
-    <div>
-      <Image
-        className="w-[295px] h-[298px] absolute top-[194px] left-[415px]"
-        src={pic2}
-        alt="pic2"
-      />
-      <div className="w-[150px] h-[27px] absolute top-[508px] left-[415px]">
-        <p className="font-bold text-[20px] leading-[27px]">Skinny Fit Jeans</p>
-      </div>
-      <Image
-        className="w-[126.2px] h-[19px] absolute top-[543px] left-[415px]"
-        src={star2}
-        alt="star2"
-       
-      />
-      <div className="w-[200px] h-[32px] absolute top-[570px] left-[415px]">
-        <Image src={price1} alt="price" />
-      </div>
-    </div>
-    {/* Product 3 */}
-    <div>
-      <Image
-        className="w-[295px] h-[298px] absolute top-[194px] left-[730px]"
-        src={pic3}
-        alt="pic3"
-      />
-      <div className="w-[151px] h-[27px] absolute top-[508px] left-[730px]">
-        <p className="font-bold text-[20px] leading-[27px]">Checkered Shirt</p>
-      </div>
-      <Image
-        className="w-[126.2px] h-[19px] absolute top-[543px] left-[730px]"
-        src={star3}
-        alt="star"
-      />
-      <div className="w-[55px] h-[32px] absolute top-[570px] left-[730px]">
-        <p className="font-bold text-[24px] leading-[32.4px]">$180</p>
-      </div>
-    </div>
-    {/* Product 4 */}
-    <div>
-      <Image
-        className="w-[295px] h-[298px] absolute top-[194px] left-[1045px]"
-        src={pic4}
-        alt="pic4"
-      />
-      <div className="w-[199px] h-[27px] absolute top-[508px] left-[1045px]">
-        <p className="font-bold text-[20px] leading-[27px] text-nowrap">
-          Sleeve Stripped T-shirt
-        </p>
-      </div>
-      <Image
-        className="w-[126.2px] h-[19px] absolute top-[543px] left-[1045px]"
-        src={star4}
-        alt="star"
-      />
-      <div className="w-[200px] h-[32px] absolute top-[570px] left-[1045px]">
-        <Image src={price2} alt="price" />
-      </div>
-    </div>
-  </div>
+  
+              <div className="hidden lg:block">
+    
+                <div>
+                  <Image
+                    className="w-[295px] h-[298px] absolute top-[194px] left-[100px]"
+                    src={pic1}
+                    alt="pic1"
+                  />
+                  <div className="w-[225px] h-[27px] absolute top-[508px] left-[100px]">
+                    <p className="font-bold text-[20px] leading-[27px] text-nowrap">
+                      T-shirt with Tape Details
+                    </p>
+                  </div>
+                  <Image
+                    className="w-[150px] h-[19px] absolute top-[543px] left-[100px]"
+                    src={star1}
+                    alt="star"
+                  />
+                  <div className="w-[55px] h-[32px] absolute top-[570px] left-[100px]">
+                    <p className="font-bold text-[24px] leading-[32.4px]">$120</p>
+                  </div>
+                </div>
+      
+                <div>
+                  <Image
+                    className="w-[295px] h-[298px] absolute top-[194px] left-[415px]"
+                    src={pic2}
+                    alt="pic2"
+                  />
+                  <div className="w-[150px] h-[27px] absolute top-[508px] left-[415px]">
+                    <p className="font-bold text-[20px] leading-[27px]">Skinny Fit Jeans</p>
+                  </div>
+                  <Image
+                    className="w-[126.2px] h-[19px] absolute top-[543px] left-[415px]"
+                    src={star2}
+                    alt="star2"
+                  
+                  />
+                  <div className="w-[200px] h-[32px] absolute top-[570px] left-[415px]">
+                    <Image src={price1} alt="price" />
+                 </div>
+                </div>
+      
+                <div>
+                  <Image
+                    className="w-[295px] h-[298px] absolute top-[194px] left-[730px]"
+                    src={pic3}
+                    alt="pic3"
+                  />
+                  <div className="w-[151px] h-[27px] absolute top-[508px] left-[730px]">
+                    <p className="font-bold text-[20px] leading-[27px]">Checkered Shirt</p>
+                  </div>
+                  <Image
+                    className="w-[126.2px] h-[19px] absolute top-[543px] left-[730px]"
+                    src={star3}
+                    alt="star"
+                  />
+                  <div className="w-[55px] h-[32px] absolute top-[570px] left-[730px]">
+                    <p className="font-bold text-[24px] leading-[32.4px]">$180</p>
+                  </div>
+                </div>
+      
+                <div>
+                  <Image
+                    className="w-[295px] h-[298px] absolute top-[194px] left-[1045px]"
+                    src={pic4}
+                    alt="pic4"
+                  />
+                  <div className="w-[199px] h-[27px] absolute top-[508px] left-[1045px]">
+                    <p className="font-bold text-[20px] leading-[27px] text-nowrap">
+                      Sleeve Stripped T-shirt
+                    </p>
+                  </div>
+                  <Image
+                    className="w-[126.2px] h-[19px] absolute top-[543px] left-[1045px]"
+                    src={star4}
+                    alt="star"
+                  />
+                  <div className="w-[200px] h-[32px] absolute top-[570px] left-[1045px]">
+                    <Image src={price2} alt="price" />
+                  </div>
+                </div>
+              </div>
 
-  {/* sm: 2-column grid with 2 items */}
-  <div className="sm:grid sm:grid-cols-2 sm:gap-2 sm:mt-[250px] sm:w-full lg:hidden ">
-    {/* Product 1 */}
-    <div className="lg:hidden sm:m-2">
-      <Image
-        className="w-[295px] h-[298px]  sm:w-[198px] sm:h-[200px] "
-        src={pic1}
-        alt="pic1"
-      />
-      <div className=" mt-2 sm:mx-[1%]">
-        <p className=" sm:text-[16px] font-bold text-[20px] leading-[27px] ">
-          T-shirt with Tape Details
-        </p>
-        <Image
-          className="w-[150px] h-[19px]  mt-2"
-          src={star1}
-          alt="star"
-        />
-        <p className="sm:text-[16px]  font-bold text-[24px] leading-[32.4px] mt-1">$120</p>
-      </div>
-    </div>
-    {/* Product 2 */}
-    <div className="lg:hidden sm:m-4">
-      <Image
-        className="sm:absolute left-[220px] w-[295px] h-[298px] sm:w-[198px] sm:h-[200px]"
-        src={pic2}
-        alt="pic2"
-      />
-      <div className="sm:mx-[1%] mt-2">
-        <p className="font-bold text-[20px] leading-[27px]">
-          Skinny Fit Jeans
-        </p>
-        <Image
-          className="w-[126.2px] h-[19px]  mt-2"
-          src={star2}
-          alt="star"
-        />
-        <Image
-          className="w-[200px] h-[32px]  mt-1"
-          src={price1}
-          alt="price"
-        />
-      </div>
-    </div>
-  </div>
-</div>
+  
+            </div>
 
-            {/* for mobile */}
+              
 
             
 
@@ -268,9 +223,18 @@ export default function Three(){
                 </div>
 
             </div>
+
+            <div className="lg:hidden">
+              <div className="w-[269px] h-[38px] my-[17%] m-[50px] ">
+                <p className="text-nowrap text-black font-extrabold text-[32px] leading-[38.4px] text-center  ">
+                  NEW ARRIVALS
+                </p>
+              </div>
+
+            </div>
             
 
-        </div>
+          </div>
 
     )
 }
