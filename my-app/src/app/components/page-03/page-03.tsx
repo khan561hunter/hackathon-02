@@ -33,6 +33,7 @@ import name2 from "@/app/assets/Frame 31 (1).png"
 import name3 from "@/app/assets/Frame 31 (2).png"
 import Responsive from "./responsive";
 
+
 export default function Three(){
     return(
           <div className="w-[1440px] h-[2900px]  absolute top-[910px] " >
@@ -229,6 +230,7 @@ export default function Three(){
             </div>
             
             <Responsive />
+            
 
             
             

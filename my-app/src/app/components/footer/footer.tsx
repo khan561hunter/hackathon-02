@@ -8,11 +8,14 @@ import help from "@/app/assets/About Features Works (1).png"
 import faq from "@/app/assets/About Features Works (2).png"
 import resource from "@/app/assets/About Features Works (3).png"
 import cards from "@/app/assets/Frame 53.png"
+import Responsive2 from "./responsive";
+
 
 export default function Four (){
     return(
         <main className="md:max-w-[1440px] w-full m-auto relative">
-            <div className="w-[1440px] h-[589px] absolute top-[3781px]  ">
+            
+            <div className="w-[1440px] h-[589px] absolute top-[3781px] hidden md:block  ">
             <div className="w-[1240px] h-[180px] absolute left-[100px]  bg-black rounded-[20px] flex justify-between">
                 <div className="w-[551px] h-[94px] mx-[64px] my-[36px] flex items-center ">
                     <p className="font-bold text-[40px] leading-[45px] text-wrap text-white">STAY UPTO DATE ABOUT OUR LATEST OFFERS</p>
@@ -69,11 +72,13 @@ export default function Four (){
             </div>
 
         </div>
-        <div className="w-[1240px] absolute top-[4238px] left-[100px] border-[1px] bg-[#0000001A]"></div>
-        <div className="w-[269px] h-[19px] absolute top-[4263px] left-[100px]">
+        <div className="w-[1240px] absolute top-[4238px] left-[100px] border-[1px] bg-[#0000001A] hidden lg:block"></div>
+        <div className="w-[269px] h-[19px] absolute top-[4263px] left-[100px] hidden lg:block">
             <p className="text-nowrap font-normal text-[#00000099] text-[14px] ">Shop.co © 2000-2023, All Rights Reserved</p>
         </div>
-        <div className="w-[281.07px] h-[30.03px] absolute top-[4258px] left-[1059px] "><Image src={cards} alt="cards"></Image></div>
+        <div className="w-[281.07px] h-[30.03px] absolute top-[4258px] left-[1059px] hidden lg:block "><Image src={cards} alt="cards"></Image></div>
+        <Responsive2 />
+        
         </main>
         
     )

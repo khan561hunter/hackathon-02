@@ -7,24 +7,23 @@ import half from "@/app/assets/Frame 58.png"
 import price1 from "@/app/assets/Frame 59.png"
 import line from "@/app/assets/Line 4 (1).png"
 import s_pic1 from "@/app/assets/Frame 32 (1).png"
-import s_pic2 from "@/app/assets/Frame 33 (1).png"
-import s_star1 from "@/app/assets/Frame 35 (1).png"
-import s_star2 from "@/app/assets/Frame 39 (1).png"
-import price from "@/app/assets/$212.png"
-import price_2 from "@/app/assets/$232.png"
-import price3 from "@/app/assets/Frame 42.png" 
 import orange from "@/app/assets/orange.png"
 import dress1 from "@/app/assets/Frame 105.png"
 import dress2 from "@/app/assets/Frame 106.png"
 import dress3 from "@/app/assets/Frame 107.png"
 import dress4 from "@/app/assets/Frame 108.png"
+import { GoArrowLeft } from "react-icons/go";
+import { GoArrowRight } from "react-icons/go";
+import star from "@/app/assets/Frame 10.png"
+import name1 from "@/app/assets/Frame 31.png"
+
 
 
 
 
 export default function Responsive(){
     return(
-        <main className="w-screen">
+        <main className="w-screen h-full">
             <div className="lg:hidden my-[60%] w-screen">
                 <div className="w-[269px] h-[38px] my-[17%] m-[50px] ">
                     <p className="text-nowrap text-black font-extrabold text-[32px] leading-[38.4px] text-center  ">
@@ -147,12 +146,32 @@ export default function Responsive(){
                    
 
                 </div>
-                <div className="w-[286px] h-[72px] m-4 ">
-                  <p className="font-extrabold text-[32px] leading-[37px] text-black">OUR HAPPY CUSTOMERS</p>
-              </div>
+                    <div className="flex">
+                        <div className="w-[286px] h-[72px] m-4 ">
+                        <p className="font-extrabold text-[32px] leading-[37px] text-black">OUR HAPPY CUSTOMERS</p>
+                    </div>
+                    <div className="flex my-[17%] gap-3">
+                        <GoArrowLeft className="w-[24px] h-[24px] " />
+                        <GoArrowRight className="w-[24px] h-[24px] " />
+                    </div>
+
+                </div>
+                <div className=" w-[358px] h-[186.19px] border-[1px] border-[#0000001A] rounded-[20px] p-2 mx-4  ">
+                      <Image className="w-[118px] h-[19.19px] my-[6.49px] m-6 " src={star} alt="star"></Image>
+                      <div className="w-[310px] h-[107px] m-6">
+                          <Image className="w-[89px] h-[19px] my-[15px]" src={name1} alt="name"></Image>
+                          <div className="my-[15px] font-normal text-[#00000099] text-[14px] text-wrap leading-[20px]">"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</div>
+
+                      </div>
+
+
+                </div>
+                
+              
                 
 
             </div>
+            
         </main>
     )
 }
