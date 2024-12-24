@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import calvin from "@/public/Homepage/Two/calvin.png"
 
