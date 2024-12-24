@@ -32,13 +32,13 @@ export default function Footer() {
                 </div>
                 <div className="mx-auto max-w-[1240px] w-full flex justify-between mx-[160px]  ">
                     <div className="w-[248px] text-sm text-[#00000099] flex flex-col gap-[35px] ">
-                        <Image src={"/navbar/logo.png"} alt="logo" width={167} height={23}></Image>
+                        <Image src="/navbar/logo.png" alt="logo" width={167} height={23}></Image>
                         <p>We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
                         <div className="flex gap-2">
-                            <Image src={"/icons/1.png"}  alt="twitter" width={28} height={28}></Image>
-                            <Image src={"/icons/2.png"} alt="facebook" width={28} height={28}></Image>
-                            <Image src={"/icons/3.png"} alt="instagram" width={28} height={28}></Image>
-                            <Image src={"/icons/4.png"} alt="github" width={28} height={28}></Image>
+                            <Image src="/icons/1.png"  alt="twitter" width={28} height={28}></Image>
+                            <Image src="/icons/2.png" alt="facebook" width={28} height={28}></Image>
+                            <Image src="/icons/3.png" alt="instagram" width={28} height={28}></Image>
+                            <Image src="/icons/4.png" alt="github" width={28} height={28}></Image>
                         </div>
 
                     </div>

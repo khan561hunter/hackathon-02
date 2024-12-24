@@ -36,7 +36,7 @@ export default function One(){
                 </div>
                 
                 <div>
-                    <Image src={"/Homepage/One/image.png"} alt="main page " width={663} height={690} className="object-cover">
+                    <Image src="/Homepage/One/image.png" alt="main page " width={663} height={690} className="object-cover">
                     
                     </Image>
                     
