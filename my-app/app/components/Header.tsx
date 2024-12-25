@@ -26,7 +26,7 @@ export default function Header(){
 
 
     return(
-        <main>
+        <main className="bg-white">
             <div className="w-full bg-black sm:text-sm text-xs text-white flex items-center  ">
                 <div className="max-w-[1440px] h-[38px] p-2 flex  items-center justify-around m-auto  ">
                     <p className="flex gap-1">Sign up and get 20% off to your first order.<span className="underline font-medium">
@@ -80,13 +80,13 @@ export default function Header(){
                                 )}
                             </li>
                             <li>
-                                <Link href="/onsale" className="text-base hover:underline" >On Sale</Link>
+                                <div  className="text-base hover:underline" >On Sale</div>
                             </li>
                             <li>
-                                <Link href="/newarrivals" className="text-base hover:underline">New Arrivals</Link>
+                                <div  className="text-base hover:underline">New Arrivals</div>
                             </li>
                             <li>
-                                <Link href="/brands" className="text-base hover:underline">Brands</Link>
+                                <div  className="text-base hover:underline">Brands</div>
                             </li>
                             
                         
