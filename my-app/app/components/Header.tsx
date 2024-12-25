@@ -42,12 +42,12 @@ export default function Header(){
                 <div className="md:flex md:justify-between md:items-center xs:flex xs:items-center gap-4 xs:justify-between ">
                     <Link href={"/"}><Image src="/navbar/logo.png" alt="logo" width={160} height={22} className="hidden md:block" ></Image></Link>
                     
-                    <button
+                    <div
                         onClick={handleMobileMenu}
-                        className="md:hidden text-2xl text-black "
+                        className="md:hidden text-2xl xs:block "
                         >
                         {MobileMenuOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
-                    </button>
+                    </div>
                     <Link href={"/"}><Image src="/navbar/logo.png" alt="logo" width={128} height={16} className="md:hidden" ></Image></Link>
                     
                     <div className={`${
