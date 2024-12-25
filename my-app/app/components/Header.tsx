@@ -26,7 +26,7 @@ export default function Header(){
 
 
     return(
-        <main className="bg-white">
+        <main className="">
             <div className="w-full bg-black sm:text-sm text-xs text-white flex items-center  ">
                 <div className="max-w-[1440px] h-[38px] p-2 flex  items-center justify-around m-auto  ">
                     <p className="flex gap-1">Sign up and get 20% off to your first order.<span className="underline font-medium">
@@ -98,9 +98,9 @@ export default function Header(){
                         
 
                     </div>
-                    <div className="w-[577px]  bg-[#F0F0F0] rounded-full md:flex items-center py-[12px] px-[16px] gap-3 xs:hidden md:block">
+                    <div className="md:min-w-[577px]  bg-[#F0F0F0] rounded-full md:flex items-center py-[12px] px-[16px] gap-3 xs:hidden md:block">
                         <FiSearch className="w-[24px] h-[24px] " />
-                        <div className="text-[#00000066]">
+                        <div className="text-[#909090]">
                             <p>Search for products...</p>
                         </div>
                         
