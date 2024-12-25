@@ -40,7 +40,7 @@ export default function Header(){
             </div>
             <div className="max-w-[1240px] h-[41px] mx-auto my-8 ">
                 <div className="md:flex md:justify-between md:items-center xs:flex xs:items-center gap-4 xs:justify-between ">
-                    <Link href={"/"}><Image src="/navbar/logo.png" alt="logo" width={160} height={22} className="hidden md:block" ></Image></Link>
+                    <Link href="/"><Image src="/navbar/logo.png" alt="logo" width={160} height={22} className="hidden md:block" ></Image></Link>
                     
                     <div
                         onClick={handleMobileMenu}
@@ -48,7 +48,7 @@ export default function Header(){
                         >
                         {MobileMenuOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
                     </div>
-                    <Link href={"/"}><Image src="/navbar/logo.png" alt="logo" width={128} height={16} className="md:hidden" ></Image></Link>
+                    <Link href="/"><Image src="/navbar/logo.png" alt="logo" width={128} height={16} className="md:hidden" ></Image></Link>
                     
                     <div className={`${
                             MobileMenuOpen
